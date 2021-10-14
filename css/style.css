@@ -19,6 +19,7 @@ body {
 .toit ul {
     float: left;
     margin: 0;
+    margin-left: 2rem;
 }
 
 h2 {
@@ -33,15 +34,15 @@ p    {
 }
 
 .toit-img  {
-    width:20%;
+    width: 30%;
     float:left;
-    margin-left:40rem;
 }
 .toit
 {
     text-align: left;
-    margin: 0 auto  ;
+    margin: 0 auto;
     overflow: hidden;
+    width: 50%;
     
 }
 
@@ -68,4 +69,71 @@ p    {
 .wrapper a {
     text-decoration: none;
     color:var(--link);
+}
+
+
+@media (min-width: 480px){
+
+    .toit-img{
+        width: 100%;
+    }
+    li{
+        font-size:30px;
+    }
+    
+    .retsept{
+        width: 100%;
+    }
+    
+    .toit{
+        width: 100%;
+    }
+    * {
+        margin:0px;
+    }
+}
+
+@media (min-width:768px) {
+    .body {
+        width: 80%;
+        margin: 0;
+    }
+    .toit-img{
+        width: 60%;
+    }
+    li{
+        font-size:15px;
+    }
+    
+    .retsept{
+        width: 80%;
+    }
+    
+    .toit{
+        width: 80%;
+    }
+}
+
+
+@media (min-width:1024) {
+    .body {
+        width: 100%;
+
+    }
+    .toit-img{
+        width: 30%;
+    }
+    li{
+        font-size:15px;
+
+    }
+    
+    .retsept{
+        width: 60%;
+    }
+    
+    .toit{
+        width: 50%;
+    }   
+
 }
